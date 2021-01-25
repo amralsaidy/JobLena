@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">JobLena</string>
+
+    <string name="code_auth_subtitle">Please enter the code received in %1$s</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="phone_auth_subtitle">Please enter your phone number to verify your account</string>
+    <string-array name="languages">
+        <item>Arabic</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Algeria</item>
+        <item>Bahrain</item>
+        <item>Comoros</item>
+        <item>Djibouti</item>
+        <item>Egypt</item>
+        <item>Iraq</item>
+        <item>Jordan</item>
+        <item>Kuwait</item>
+        <item>Lebanon</item>
+        <item>Libya</item>
+        <item>Mauritania</item>
+        <item>Morocco</item>
+        <item>Oman</item>
+        <item>Palestine</item>
+        <item>Qatar</item>
+        <item>Saudi Arabia</item>
+        <item>Somalia</item>
+        <item>Sudan</item>
+        <item>Syria</item>
+        <item>Tunisia</item>
+        <item>United Arab Emirates</item>
+        <item>Yemen</item>
+    </string-array>
+</resources>

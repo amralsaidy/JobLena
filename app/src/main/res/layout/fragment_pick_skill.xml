@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="56dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/back_iv_id"
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:padding="18dp"
+                    android:src="@drawable/ic_back_black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/jetbrainsmono_regular"
+                    android:text="Recruit Process"
+                    android:textAllCaps="true"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/refresh_iv_id"
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:padding="16dp"
+                    android:src="@drawable/ic_refresh" />
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="56dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/jetbrainsmono_bold"
+                android:text="Pick Skills"
+                android:textAppearance="?attr/textAppearanceOverline"
+                android:textColor="@color/md_amber_800"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="104dp"
+            android:layout_marginBottom="56dp"
+            android:background="@color/md_grey_100"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/skills_tl_id"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/md_teal_500"
+                app:tabIndicatorHeight="2dp"
+                app:tabMode="scrollable"
+                app:tabPadding="5dp"
+                app:tabSelectedTextColor="@color/md_teal_500"
+                app:tabTextColor="@color/black" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/skills_vp_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:elevation="-4dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/next_tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom"
+            android:background="@color/green"
+            android:fontFamily="@font/jetbrainsmono_regular"
+            android:gravity="center"
+            android:text="Next"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </FrameLayout>
+</layout>
