@@ -4,25 +4,25 @@ package com.joblena.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import com.google.android.material.card.MaterialCardView;
 import com.joblena.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
 
 public final class FragmentJobSpecBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final MaterialCardView rootView;
 
-  private FragmentJobSpecBinding(@NonNull FrameLayout rootView) {
+  private FragmentJobSpecBinding(@NonNull MaterialCardView rootView) {
     this.rootView = rootView;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public MaterialCardView getRoot() {
     return rootView;
   }
 
@@ -47,6 +47,6 @@ public final class FragmentJobSpecBinding implements ViewBinding {
       throw new NullPointerException("rootView");
     }
 
-    return new FragmentJobSpecBinding((FrameLayout) rootView);
+    return new FragmentJobSpecBinding((MaterialCardView) rootView);
   }
 }

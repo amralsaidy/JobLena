@@ -15,10 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.joblena.presentation.components.company.CompanyActivity"></activity>
+       <!-- .presentation.components.HostActivity
+        <activity android:name="com.joblena.presentation.components.company.CompanyActivity"></activity>-->
         <activity android:name=".presentation.components.recuitment_skill.SkillActivity" />
         <activity android:name=".presentation.components.recuitment_job.JobActivity" />
-        <activity android:name=".presentation.components.HostActivity">
+        <activity android:name=".presentation.components.company.CompanyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

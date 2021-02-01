@@ -4,6 +4,10 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_background_input.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable-xhdpi\\background_input.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_job_spec.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_job_spec.xml"
     },
@@ -32,6 +36,10 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_preferences.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_preferences.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\font_jetbrainsmono_medium.ttf.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\font\\jetbrainsmono_medium.ttf"
     },
@@ -44,12 +52,20 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\font\\jetbrainsmono_italic.ttf"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable-xhdpi\\side_nav_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_auth.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_auth.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_business.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_menu_24.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notification.xml.flat",
@@ -84,6 +100,14 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_prefer.xml"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_rounded_button.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable-xhdpi\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_language2.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_language2.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\navigation\\nav_graph.xml"
     },
@@ -102,6 +126,10 @@
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_notifications_24.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
@@ -144,6 +172,10 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\chip_selected.xml"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_technical.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_technical.xml"
     },
@@ -158,6 +190,10 @@
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_personal.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_personal.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_earth.xml.flat",
@@ -184,12 +220,20 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_signup_business.xml"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_account_circle_24.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_job_name_list_item.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\job_name_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_help.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_help.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation_drawer.xml.flat",
@@ -210,6 +254,10 @@
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
@@ -292,6 +340,10 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_create_job.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_create_job.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_signup_personal.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_signup_personal.xml"
     },
@@ -302,6 +354,10 @@
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contact_us.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_contact_us.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",

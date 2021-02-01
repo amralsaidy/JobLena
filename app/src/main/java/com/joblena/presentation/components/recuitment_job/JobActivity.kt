@@ -43,7 +43,7 @@ class JobActivity : AppCompatActivity() {
                     }
                 }else{
                     binding.jobDescBtn.apply {
-                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#4CAF50"))
+                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#00a956"))
 
                     }
                 }
@@ -54,7 +54,7 @@ class JobActivity : AppCompatActivity() {
                     }
                 }else{
                     binding.jobSpecificationBtn.apply {
-                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#4CAF50"))
+                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#00a956"))
 
                     } } }
         })
