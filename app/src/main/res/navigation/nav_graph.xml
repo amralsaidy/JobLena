@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/splash_Fragment_id">
+    app:startDestination="@id/home_fragment_id">
 
     <fragment
         android:id="@+id/splash_Fragment_id"
@@ -73,8 +73,30 @@
         tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/action_home_fragment_id_to_pick_skill_fragment_id"
+            android:id="@+id/action_home_fragment_id_to_pick_skill_Fragment_id"
             app:destination="@id/pick_skill_Fragment_id" />
+        <action
+            android:id="@+id/action_home_fragment_id_to_signup_business_fragment_id"
+            app:destination="@id/signup_business_fragment_id" />
+        <action
+            android:id="@+id/action_home_fragment_id_to_signup_personal_fragment_id"
+            app:destination="@id/signup_personal_fragment_id" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signup_business_fragment_id"
+        android:name="com.joblena.presentation.components.signup.SignUpBusinessFragment"
+        android:label="SignUpBusinessFragment"
+        tools:layout="@layout/fragment_signup_business">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/signup_personal_fragment_id"
+        android:name="com.joblena.presentation.components.signup.SignUpPersonalFragment"
+        android:label="SignUpPersonalFragment"
+        tools:layout="@layout/fragment_signup_personal">
+
     </fragment>
 
     <fragment
