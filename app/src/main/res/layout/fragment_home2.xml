@@ -1,202 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView
+<layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:overScrollMode="never">
-    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <!--layout header -->
-        <LinearLayout
-            android:id="@+id/header_layout"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/holo_blue_dark"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:gravity="center_horizontal"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profile_image"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="15dp"
-                android:src="@drawable/ic_dashboard_black_24dp"
-                app:civ_border_color="#FF000000"
-                app:civ_border_width="2dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Company"
-                android:textColor="@android:color/white"
-                android:textSize="22sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="5dp"
-                android:text="Export-Import"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="5dp"
-                android:text="Summary"
-                android:textColor="@android:color/white"
-                android:textSize="14sp" />
-
+            android:layout_height="wrap_content">
+            <!--layout header -->
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:id="@+id/header_layout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginEnd="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/rounded_button"
-                android:backgroundTint="@color/white"
-                android:orientation="horizontal">
+                android:background="@android:color/holo_blue_dark"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/ic_baseline_menu_24"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="create job"
-                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Company"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Export-Import"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:text="Summary"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp" />
 
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_margin="5dp"
+                <LinearLayout
+                    android:id="@+id/layout_create_job"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     android:background="@drawable/rounded_button"
-                    android:backgroundTint="@android:color/holo_blue_dark"
-                    android:src="@drawable/ic_baseline_add_24" />
-            </LinearLayout>
-        </LinearLayout>
-        <!-- jobs names recyclerview-->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/jobs_recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clipToPadding="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="30dp"
-            android:paddingHorizontal="4dp"
-            android:foregroundGravity="left"
-            android:orientation="horizontal"
-            android:overScrollMode="never"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintBottom_toTopOf="@id/job_card_list"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/header_layout"
-            tools:itemCount="5"
-            tools:listitem="@layout/job_name_list_item" />
-        <!-- jobs recyclerview -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/job_card_list"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="15dp"
-            android:visibility="visible"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/jobs_recyclerview"
-            app:strokeColor="@android:color/holo_blue_dark"
-            app:strokeWidth="1dp">
+                    android:backgroundTint="@color/white"
+                    android:orientation="horizontal">
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="create job"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/rounded_button"
+                        android:backgroundTint="@android:color/holo_blue_dark"
+                        android:src="@drawable/ic_baseline_add_24" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- jobs names recyclerview-->
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/jobs_lists"
+                android:id="@+id/jobs_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="30dp"
+                android:paddingHorizontal="4dp"
+                android:foregroundGravity="left"
+                android:orientation="horizontal"
+                android:overScrollMode="never"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintBottom_toTopOf="@id/job_card_list"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/header_layout"
+                tools:itemCount="5"
+                tools:listitem="@layout/job_name_list_item" />
+
+            <!-- jobs recyclerview -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/job_card_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="10dp"
-                android:layout_marginEnd="10dp"
                 android:layout_marginStart="10dp"
-                android:clipToPadding="true"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:itemCount="5"
-                tools:listitem="@layout/job_item_list" />
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="15dp"
+                android:visibility="visible"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/jobs_recyclerview"
+                app:strokeColor="@android:color/holo_blue_dark"
+                app:strokeWidth="1dp">
 
-        </com.google.android.material.card.MaterialCardView>
-        <!-- candidates card -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/candidate_card"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="10dp"
-            app:layout_constraintBottom_toTopOf="@id/job_card_list"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/saved_card"
-            app:layout_constraintTop_toTopOf="@id/job_card_list"
-            app:strokeColor="@android:color/holo_blue_dark"
-            app:strokeWidth="2dp">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/jobs_lists"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="10dp"
+                    android:clipToPadding="true"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="5"
+                    tools:listitem="@layout/job_item_list" />
 
-            <TextView
+            </com.google.android.material.card.MaterialCardView>
+            <!-- candidates card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/candidate_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="Candidates"
-                android:textSize="18sp" />
-        </com.google.android.material.card.MaterialCardView>
-        <!-- saved card -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/saved_card"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:cardBackgroundColor="@color/white"
-            app:cardCornerRadius="10dp"
-            app:layout_constraintBottom_toTopOf="@id/job_card_list"
-            app:layout_constraintEnd_toStartOf="@+id/candidate_card"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/jobs_recyclerview"
-            app:layout_constraintTop_toTopOf="@id/job_card_list"
-            app:strokeColor="@android:color/holo_blue_dark"
-            app:strokeWidth="2dp">
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toTopOf="@id/job_card_list"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/saved_card"
+                app:layout_constraintTop_toTopOf="@id/job_card_list"
+                app:strokeColor="@android:color/holo_blue_dark"
+                app:strokeWidth="2dp">
 
-            <TextView
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Candidates"
+                    android:textSize="18sp" />
+            </com.google.android.material.card.MaterialCardView>
+            <!-- saved card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/saved_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:text="  Saved   "
-                android:textSize="18sp" />
-        </com.google.android.material.card.MaterialCardView>
-        <!-- open drawer image -->
-        <ImageView
-            android:id="@+id/menu_image"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:src="@drawable/ic_baseline_menu_24"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toTopOf="@id/job_card_list"
+                app:layout_constraintEnd_toStartOf="@+id/candidate_card"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/jobs_recyclerview"
+                app:layout_constraintTop_toTopOf="@id/job_card_list"
+                app:strokeColor="@android:color/holo_blue_dark"
+                app:strokeWidth="2dp">
 
-</ScrollView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="  Saved   "
+                    android:textSize="18sp" />
+            </com.google.android.material.card.MaterialCardView>
+            <!-- open drawer image -->
+            <ImageView
+                android:id="@+id/menu_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:src="@drawable/ic_baseline_menu_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</layout>
+
