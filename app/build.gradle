@@ -73,6 +73,7 @@ dependencies {
 
     api 'androidx.appcompat:appcompat:1.2.0'
     api 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.13.1'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
@@ -93,6 +94,7 @@ dependencies {
     implementation 'com.yanzhenjie.recyclerview:x:1.3.2'
     //util
     implementation 'com.blankj:utilcodex:1.26.0'
+    implementation 'com.google.android.material:material:1.2.1'
 
 
     // Use Android KTX Modules
@@ -120,6 +122,9 @@ dependencies {
     api('com.github.bumptech.glide:okhttp3-integration:4.11.0') {
         exclude group: 'glide-parent'
     }
+
+    //eventBus
+    implementation 'org.greenrobot:eventbus:3.1.1'
 
     // Retrofit
     api "com.squareup.retrofit2:retrofit:2.9.0"

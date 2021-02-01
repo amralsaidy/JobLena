@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_soft_skill.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_soft_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_job_desc.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_job_desc.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_job.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\activity_job.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\job_item_list.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\job_item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_picked_skill.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_picked_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notification.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_company.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\activity_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_welcome.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_prefer.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_prefer.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_host.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\activity_host.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signup_personal.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_signup_personal.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_user.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_job_spec.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_job_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_language.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_language.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_technical.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_technical.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\job_name_list_item.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\job_name_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_chips_container.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\layout_chips_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signup_business.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_signup_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_auth.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home2.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_home2.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_chip.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\item_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\skill_list_item.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\skill_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_auth_code.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_auth_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_skill.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\activity_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_skill.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\item_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_list.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\item_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_pick_skill.xml",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\fragment_pick_skill.xml"
+    }
+]

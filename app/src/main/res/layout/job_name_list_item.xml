@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="jobname"
+            type="com.joblena.domain.entities.JobName" />
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:strokeWidth="1dp"
+        android:clipToPadding="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:strokeColor="@android:color/holo_blue_dark"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@{jobname.name}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:id="@+id/job_name"/>
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>
