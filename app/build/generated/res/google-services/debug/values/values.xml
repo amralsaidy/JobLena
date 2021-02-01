@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">313735061620-57oh2uakb3co993jb5k9s5r9q15cievj.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">313735061620</string>
+    <string name="google_api_key" translatable="false">AIzaSyA4Q9lJ18965I-NcNGpHMdUCBJ2wcAp-aU</string>
+    <string name="google_app_id" translatable="false">1:313735061620:android:a3406b31cb348a594d7121</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA4Q9lJ18965I-NcNGpHMdUCBJ2wcAp-aU</string>
+    <string name="google_storage_bucket" translatable="false">joblena-a44fc.appspot.com</string>
+    <string name="project_id" translatable="false">joblena-a44fc</string>
+</resources>
