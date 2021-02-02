@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -16,10 +17,10 @@ import java.lang.Object;
 
 public abstract class ActivityJobBinding extends ViewDataBinding {
   @NonNull
-  public final Button jobDescBtn;
+  public final TextView jobDescBtn;
 
   @NonNull
-  public final Button jobSpecificationBtn;
+  public final TextView jobSpecificationBtn;
 
   @NonNull
   public final Button nextBtn;
@@ -34,7 +35,7 @@ public abstract class ActivityJobBinding extends ViewDataBinding {
   public final NoSwipeViewPager viewpager;
 
   protected ActivityJobBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button jobDescBtn, Button jobSpecificationBtn, Button nextBtn, Button previousBtn,
+      TextView jobDescBtn, TextView jobSpecificationBtn, Button nextBtn, Button previousBtn,
       Button processBtn, NoSwipeViewPager viewpager) {
     super(_bindingComponent, _root, _localFieldCount);
     this.jobDescBtn = jobDescBtn;

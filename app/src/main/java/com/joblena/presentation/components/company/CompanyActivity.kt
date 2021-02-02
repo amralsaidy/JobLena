@@ -45,26 +45,23 @@ class CompanyActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         navView.setupWithNavController(navController)
 
-        /*
-         navigation view drawer
-         */
+         //navigation view drawer
         drawerLayout = findViewById(R.id.drawer_layout)
         navViewDrawer = findViewById(R.id.drawer_view)
-        val navControllerDrawer = this.findNavController(R.id.nav_host_fragment_drawer)
+       /* val navControllerDrawer = this.findNavController(R.id.nav_host_fragment_drawer)
         appBarConfigurationDrawer = AppBarConfiguration(navControllerDrawer.graph, drawerLayout)
-        NavigationUI.setupWithNavController(navViewDrawer, navControllerDrawer)
-        /*
-        check if drawer is open or not
-         */
+        NavigationUI.setupWithNavController(navViewDrawer, navControllerDrawer)*/
+
+        //check if drawer is open or not
         drawerLayout.closeDrawers();
 
 
     }
 
-    override fun onSupportNavigateUp(): Boolean {
+ /*   override fun onSupportNavigateUp(): Boolean {
         val navController = this.findNavController(R.id.nav_host_fragment_drawer)
         return NavigationUI.navigateUp(navController, appBarConfigurationDrawer)
-    }
+    }*/
 
     @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     fun showDrawer(event: Event) {
@@ -73,4 +70,5 @@ class CompanyActivity : AppCompatActivity() {
             event.isClick=false
         }
     }
+
 }

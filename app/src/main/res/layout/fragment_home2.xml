@@ -27,7 +27,7 @@
                     android:id="@+id/profile_image"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="6dp"
                     android:src="@drawable/ic_baseline_menu_24"
                     app:civ_border_color="#FF000000"
                     app:civ_border_width="2dp" />
@@ -36,10 +36,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="8dp"
                     android:text="Company"
                     android:textColor="@android:color/white"
-                    android:textSize="22sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -48,7 +48,7 @@
                     android:layout_marginTop="5dp"
                     android:text="Export-Import"
                     android:textColor="@android:color/white"
-                    android:textSize="18sp" />
+                    android:textSize="12sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
                     android:layout_marginTop="5dp"
                     android:text="Summary"
                     android:textColor="@android:color/white"
-                    android:textSize="14sp" />
+                    android:textSize="10sp" />
 
                 <LinearLayout
                     android:id="@+id/layout_create_job"
@@ -94,11 +94,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="30dp"
-                android:paddingHorizontal="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="20dp"
+                app:stackFromEnd="true"
                 android:foregroundGravity="left"
                 android:orientation="horizontal"
                 android:overScrollMode="never"
@@ -115,10 +115,10 @@
                 android:id="@+id/job_card_list"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="35dp"
                 android:visibility="visible"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="10dp"
@@ -133,10 +133,8 @@
                     android:id="@+id/jobs_lists"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:layout_marginStart="10dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="15dp"
                     android:clipToPadding="true"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                     tools:itemCount="5"
@@ -150,19 +148,24 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 app:cardBackgroundColor="@color/white"
+                android:backgroundTint="@color/black"
                 app:cardCornerRadius="10dp"
                 app:layout_constraintBottom_toTopOf="@id/job_card_list"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/saved_card"
                 app:layout_constraintTop_toTopOf="@id/job_card_list"
-                app:strokeColor="@android:color/holo_blue_dark"
-                app:strokeWidth="2dp">
+                app:strokeColor="@android:color/white"
+                app:strokeWidth="1dp">
 
                 <TextView
+                    android:id="@+id/cd_text"
+                    android:maxLines="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
                     android:text="Candidates"
                     android:textSize="18sp" />
             </com.google.android.material.card.MaterialCardView>
@@ -181,13 +184,17 @@
                 app:layout_constraintTop_toBottomOf="@id/jobs_recyclerview"
                 app:layout_constraintTop_toTopOf="@id/job_card_list"
                 app:strokeColor="@android:color/holo_blue_dark"
-                app:strokeWidth="2dp">
+                app:strokeWidth="1dp">
 
                 <TextView
+                    android:id="@+id/save_txt"
+                    android:maxLines="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:text="  Saved   "
+                    android:padding="8dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:text="Saved"
                     android:textSize="18sp" />
             </com.google.android.material.card.MaterialCardView>
             <!-- open drawer image -->

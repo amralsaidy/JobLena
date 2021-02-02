@@ -21,7 +21,6 @@ class JobActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Common.firstClick=false
         binding= DataBindingUtil.setContentView(this, R.layout.activity_job)
 
         //viewPager
@@ -43,7 +42,7 @@ class JobActivity : AppCompatActivity() {
                     }
                 }else{
                     binding.jobDescBtn.apply {
-                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#00a956"))
+                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#4285f4"))
 
                     }
                 }
@@ -54,25 +53,29 @@ class JobActivity : AppCompatActivity() {
                     }
                 }else{
                     binding.jobSpecificationBtn.apply {
-                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#00a956"))
+                        backgroundTintList= ColorStateList.valueOf(Color.parseColor("#4285f4"))
 
                     } } }
         })
 
         //click next button
         binding.nextBtn.setOnClickListener {
-            if (Common.next < 1 && Common.next >= 0) {
+            if (Common.next==0) {
                 Common.next++
                 binding.viewpager.setCurrentItem(Common.next)
                 Common.firstClick=true
-            } }
+            }
+            if(Common.next==1){
+                startActivity(Intent(this , SkillActivity::class.java))
+            }
+        }
 
         //click next button
-        binding.nextBtn.setOnClickListener {
+      /*  binding.nextBtn.setOnClickListener {
             if (Common.next==1 && Common.firstClick==true){
                 startActivity(Intent(this , SkillActivity::class.java))
                 Common.firstClick=false
-            } }
+            } }*/
 
         //click back button
         binding.previousBtn.setOnClickListener {

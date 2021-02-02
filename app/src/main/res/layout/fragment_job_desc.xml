@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:layout_margin="15dp"
     app:cardBackgroundColor="@android:color/white"
-    app:strokeColor="@android:color/holo_green_light"
+    app:strokeColor="@color/colorPrimaryDark"
     app:strokeWidth="2dp"
     app:cardCornerRadius="50dp">
 

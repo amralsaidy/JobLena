@@ -25,7 +25,7 @@ class SkillActivity : AppCompatActivity() {
 
         //click publish btn
         binding.publishBtn.setOnClickListener {
-            startActivity(Intent(this, CompanyActivity::class.java))
+
         }
 
         //viewPager
@@ -65,7 +65,7 @@ class SkillActivity : AppCompatActivity() {
                     }
                 } else {
                     binding.techincalBtn.apply {
-                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00a956"))
+                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#4285f4"))
                     }
                 }
                 //at position two
@@ -75,7 +75,7 @@ class SkillActivity : AppCompatActivity() {
                     }
                 } else {
                     binding.softskillsBtn.apply {
-                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00a956"))
+                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#4285f4"))
                     }
                 }
                 //at position three
@@ -85,7 +85,7 @@ class SkillActivity : AppCompatActivity() {
                     }
                 } else {
                     binding.languageBtn.apply {
-                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00a956"))
+                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#4285f4"))
                     }
                 }
                 //at position four
@@ -95,7 +95,7 @@ class SkillActivity : AppCompatActivity() {
                     }
                 } else {
                     binding.preferencesBtn.apply {
-                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#00a956"))
+                        backgroundTintList = ColorStateList.valueOf(Color.parseColor("#4285f4"))
                     }
 
                 }

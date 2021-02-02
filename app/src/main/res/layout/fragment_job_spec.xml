@@ -6,7 +6,7 @@
     android:layout_margin="15dp"
     app:cardBackgroundColor="@android:color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:strokeColor="@android:color/holo_green_dark"
+    app:strokeColor="@color/colorPrimaryDark"
     app:strokeWidth="2dp"
     app:cardCornerRadius="50dp">
     <LinearLayout

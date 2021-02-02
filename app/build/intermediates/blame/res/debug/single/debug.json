@@ -116,6 +116,10 @@
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\font\\jetbrainsmono_medium_italic.ttf"
     },
     {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_bookmark_border_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_bookmark_border_24.xml"
+    },
+    {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\font_jetbrainsmono_extrabold_italic.ttf.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\font\\jetbrainsmono_extrabold_italic.ttf"
     },
@@ -126,6 +130,10 @@
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_notifications_24.xml.flat",
@@ -182,6 +190,10 @@
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_skill.xml.flat",
         "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\layout\\activity_skill.xml"
+    },
+    {
+        "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_location_24.xml.flat",
+        "source": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\src\\main\\res\\drawable\\ic_baseline_add_location_24.xml"
     },
     {
         "merged": "C:\\Users\\m\\AndroidStudioProjects\\JobLena\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_language.xml.flat",

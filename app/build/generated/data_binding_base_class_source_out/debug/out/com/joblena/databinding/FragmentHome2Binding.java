@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -20,6 +21,9 @@ import java.lang.Object;
 public abstract class FragmentHome2Binding extends ViewDataBinding {
   @NonNull
   public final MaterialCardView candidateCard;
+
+  @NonNull
+  public final TextView cdText;
 
   @NonNull
   public final LinearLayout headerLayout;
@@ -43,14 +47,19 @@ public abstract class FragmentHome2Binding extends ViewDataBinding {
   public final CircleImageView profileImage;
 
   @NonNull
+  public final TextView saveTxt;
+
+  @NonNull
   public final MaterialCardView savedCard;
 
   protected FragmentHome2Binding(Object _bindingComponent, View _root, int _localFieldCount,
-      MaterialCardView candidateCard, LinearLayout headerLayout, MaterialCardView jobCardList,
-      RecyclerView jobsLists, RecyclerView jobsRecyclerview, LinearLayout layoutCreateJob,
-      ImageView menuImage, CircleImageView profileImage, MaterialCardView savedCard) {
+      MaterialCardView candidateCard, TextView cdText, LinearLayout headerLayout,
+      MaterialCardView jobCardList, RecyclerView jobsLists, RecyclerView jobsRecyclerview,
+      LinearLayout layoutCreateJob, ImageView menuImage, CircleImageView profileImage,
+      TextView saveTxt, MaterialCardView savedCard) {
     super(_bindingComponent, _root, _localFieldCount);
     this.candidateCard = candidateCard;
+    this.cdText = cdText;
     this.headerLayout = headerLayout;
     this.jobCardList = jobCardList;
     this.jobsLists = jobsLists;
@@ -58,6 +67,7 @@ public abstract class FragmentHome2Binding extends ViewDataBinding {
     this.layoutCreateJob = layoutCreateJob;
     this.menuImage = menuImage;
     this.profileImage = profileImage;
+    this.saveTxt = saveTxt;
     this.savedCard = savedCard;
   }
 
