@@ -20,9 +20,19 @@ class HomeFragment: BaseFragment<FragmentHomeBinding, ViewModel>(R.layout.fragme
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        skill_picker.setOnClickListener {
-            findNavController().navigate(R.id.action_home_fragment_id_to_pick_skill_fragment_id)
+        business_btn_id.setOnClickListener {
+            findNavController().navigate(R.id.action_home_fragment_id_to_signup_business_fragment_id)
         }
+
+        personal_btn_id.setOnClickListener {
+            findNavController().navigate(R.id.action_home_fragment_id_to_signup_personal_fragment_id)
+        }
+
+        skill_picker.setOnClickListener {
+            findNavController().navigate(R.id.action_home_fragment_id_to_pick_skill_Fragment_id)
+        }
+
+
 //        logout_btn_id.setOnClickListener {
 //            FirebaseAuth.getInstance().signOut()
 //        }

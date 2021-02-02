@@ -43,6 +43,7 @@
                     android:src="@drawable/ic_business" />
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/business_btn_id"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="Business"
@@ -62,6 +63,7 @@
                     android:src="@drawable/ic_personal" />
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/personal_btn_id"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
                     android:text="Personal"
